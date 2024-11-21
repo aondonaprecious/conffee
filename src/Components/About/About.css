@@ -1,0 +1,27 @@
+.about {
+  @apply py-[7rem] md:flex gap-[2rem] justify-between;
+}
+
+.about > div {
+  @apply flex-1;
+}
+
+.about > div:nth-of-type(2) {
+  @apply self-center;
+}
+
+.about .h3 {
+  @apply text-black text-[2.5rem] uppercase text-left;
+}
+
+.about .h2 {
+  @apply text-black text-[2rem] my-4;
+}
+
+.about .p {
+  @apply text-black text-[1.4rem] mt-2 mb-5;
+}
+
+.about .read-btn {
+  @apply bg-transparent block mb-10 mt-[4rem] py-[10px] px-[10px] border-2 border-red-700 cursor-pointer text-red-500 rounded-md text-[1.4rem];
+}

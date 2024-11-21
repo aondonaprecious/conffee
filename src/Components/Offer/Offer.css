@@ -1,0 +1,32 @@
+/** @format */
+
+.offer {
+  @apply pb-[7rem] mx-auto w-[95%];
+}
+
+section h3 {
+  @apply text-center font-bold text-[2.3rem] my-2 text-black;
+}
+
+.card img{
+  @apply w-full
+}
+.card{
+  @apply  bg-slate-900 gap-10 pb-8 ;
+}
+
+.cards{
+@apply grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-[10px]
+}
+
+.card h4 {
+  @apply text-[2.1rem] font-semibold uppercase my-2 text-center text-white;
+}
+
+.card p {
+  @apply text-[1.4rem] text-center  text-white;
+}
+
+.card button {
+  @apply px-3 py-3 cursor-pointer rounded-sm my-8 text-white text-[1.4rem] outline-none  bg-transparent   outline-slate-600 mx-auto block;
+}

@@ -1,0 +1,64 @@
+.landing {
+  background-image: url(/src/assets/img/banner-bg.png);
+  @apply min-h-screen pb-[5rem] bg-no-repeat;
+}
+
+header {
+  @apply flex flex-wrap justify-between items-center;
+}
+
+.logo {
+  @apply text-[4.5rem] font-bold tracking-[0.5px] text-white;
+}
+
+.nav {
+  @apply py-[1rem] w-full;
+}
+
+.nav-list {
+  @apply my-[1rem] list-none text-center;
+}
+
+.nav_item {
+  @apply font-medium text-[1.5rem] leading-[2] py-[1rem] px-[1.5rem] rounded-[2px] cursor-pointer;
+}
+
+.nav_item.active {
+  @apply bg-red-700;
+}
+
+.menu-icon {
+  @apply h-[50px] w-[50px]  md:hidden text-[3rem];
+}
+
+.hero {
+  @apply text-[1.4rem] md:gap-40;
+}
+
+.hero h2 {
+  @apply text-[7rem] font-bold leading-[1] mt-[7rem] md:text-[12rem];
+}
+
+.hero p {
+  @apply text-[2rem] md:text-[3rem] font-light mt-[2rem] mb-[4rem] leading-[1.3];
+}
+
+.btn {
+  @apply mt-5 flex flex-col gap-[20px] md:flex-row;
+}
+
+.about-btn {
+  @apply bg-red-600 text-center text-[2rem] py-[.4em] px-[1em] border-red-600 cursor-pointer text-white rounded-md items-center;
+}
+
+.call-btn {
+  @apply bg-white text-center text-[2rem] py-[.4em] px-[1em] border-red-600 cursor-pointer text-black block items-center rounded-md;
+}
+
+.login-btn {
+  @apply flex px-5;
+}
+
+.login {
+  @apply flex justify-evenly;
+}

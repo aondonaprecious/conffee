@@ -1,0 +1,54 @@
+footer {
+  @apply bg-slate-950 pt-[6rem];
+}
+
+.social-icons {
+  @apply flex justify-center gap-[1.5rem];
+}
+
+.contacts-details {
+  @apply flex justify-center relative mx-1 mt-[3rem] ml-[2rem] mr-[1rem];
+}
+
+.phone {
+  @apply flex justify-around h-[20] w-[20];
+}
+
+.phone h3 {
+  @apply text-[1.5rem] px-2 text-slate-950;
+}
+
+.email {
+  @apply flex justify-around;
+}
+.email h3 {
+  @apply text-[1.5rem] px-2 text-white;
+}
+
+.input-div {
+  @apply relative mt-[2rem] text-center flex items-center justify-center;
+}
+
+.input-div input {
+  @apply text-[1.5rem] p-5 text-white rounded-lg;
+}
+
+.input-div img {
+  @apply absolute top-4 left-[80] right-5 bottom-10 mt-3;
+}
+
+.icon {
+  @apply h-8 w-8 text-white;
+}
+
+.icon-arrow {
+  @apply bg-red-500 text-white w-[5rem] h-[4.8rem] rounded-lg;
+}
+
+.footer-text {
+  @apply bg-red-600 py-[1.5rem] mt-[8rem] text-center;
+}
+
+.footer-text p {
+  @apply text-[1.5rem] text-white md:text-[2.5rem];
+}
