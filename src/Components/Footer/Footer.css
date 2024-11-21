@@ -15,7 +15,7 @@ footer {
 }
 
 .phone h3 {
-  @apply text-[1.5rem] px-2 text-slate-950;
+  @apply text-[1.5rem] px-2 text-white;
 }
 
 .email {

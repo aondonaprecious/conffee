@@ -21,7 +21,7 @@ const Footer = () => {
 
           <div className="email">
             <MailIcon className="icon" />
-            <h3>demo22@gmail.com</h3>
+            <h3>demo@gmail.com</h3>
           </div>
         </div>
 
